@@ -93,7 +93,7 @@ As we can see, only floating point variables are displayed and rest are nan. Thi
 
 So, splitting is required to access them separately. We perform that by taking the mean of each column and if the mean is nan, it refers to the string columns as they were filled with nan values while loading the data, and the remaining are the numeric columns.
 
-  
+ 
 
 [$np.nanmean()$](https://numpy.org/doc/stable/reference/generated/numpy.nanmean.html) to compute the arithmetic mean along the specified axis, ignoring nan’s.
 
@@ -105,7 +105,9 @@ So, splitting is required to access them separately. We perform that by taking t
 
 [$np.argwhere()$](https://numpy.org/doc/stable/reference/generated/numpy.argwhere.html) is used to find the indices of null(for string columns) and non-null(for numeric columns) values in columnwise_mean.
 
-  
+![image](https://user-images.githubusercontent.com/53438169/126494868-0b6f90cf-14f1-4dd9-8b24-b778dee3f2cf.png)
+![image](https://user-images.githubusercontent.com/53438169/126494999-61e8596b-934f-47c2-91d9-7d832648bf2c.png)
+
 
 ![](https://lh5.googleusercontent.com/L_aqZsy4NzCKfa1zmSlHBOZMUVGxned3L150mN7rReb1NGlW63-2JTBzpbm1Srvy18GGd7sbaBxrSv7R_TvhanptjaLazIFAV7spgOa8lxyLrnszP_0lAKkg_l_KFH45E8C03spu)
 
