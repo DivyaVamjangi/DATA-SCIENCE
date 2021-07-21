@@ -105,19 +105,21 @@ So, splitting is required to access them separately. We perform that by taking t
 
 [$np.argwhere()$](https://numpy.org/doc/stable/reference/generated/numpy.argwhere.html) is used to find the indices of null(for string columns) and non-null(for numeric columns) values in columnwise_mean.
 
-![image](https://user-images.githubusercontent.com/53438169/126494868-0b6f90cf-14f1-4dd9-8b24-b778dee3f2cf.png)
-![image](https://user-images.githubusercontent.com/53438169/126494999-61e8596b-934f-47c2-91d9-7d832648bf2c.png)
+
 
 
 ![](https://lh5.googleusercontent.com/L_aqZsy4NzCKfa1zmSlHBOZMUVGxned3L150mN7rReb1NGlW63-2JTBzpbm1Srvy18GGd7sbaBxrSv7R_TvhanptjaLazIFAV7spgOa8lxyLrnszP_0lAKkg_l_KFH45E8C03spu)
 
-  
+![image](https://user-images.githubusercontent.com/53438169/126495174-05633d78-6bd3-4547-980c-9c72ea6b0721.png)
+
+![image](https://user-images.githubusercontent.com/53438169/126494999-61e8596b-934f-47c2-91d9-7d832648bf2c.png)  
 
 On top of it apply [$np.squeeze()$](https://numpy.org/doc/stable/reference/generated/numpy.squeeze.html) to remove single-dimensional entries from the shape of numeric and string columns.
 
   
 
-![](https://lh5.googleusercontent.com/BIQEuNOwac8KZwgiMUJjT9SeHS7xDZsMlUa2QoKRWZZW_z_SR3j6-GRohzp9Fb5o5x56YRZIMEvhdbX90Cn1rQ2GZ0uz-ZmmDWLsI77Ft-PKXWYYqS9gXn3kuItxyhb9FGqpZEA_)
+![image](https://user-images.githubusercontent.com/53438169/126495281-9b810e8b-c014-4926-8066-c4f38878a5db.png)
+
 
   
 
